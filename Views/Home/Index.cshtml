@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Welcome";
+    var categories = ViewBag.Categories as IQueryable<WingtipToys.Models.Category>;
+
+}
+@if(categories != null)
+{
+<div id="TitleContent" style="text-align: center">
+    <div id="CategoryMenu" style="text-align: center">
+        @foreach (var category in categories)
+        {
+        <b style="font-size: large; font-style: normal; padding-right: 10px;">
+            <a class="card-link" asp-controller="Category" asp-action="ProductList" asp-route-categoryid ="@category.CategoryID" >@category.CategoryName</a>
+        </b>
+        }
+    </div>
+</div>
+}
+
+<div style="text-align: left">
+    <h1 style="color:Tomato;" > Welcome.</h1>
+    <h2 style="color:SlateBlue;">Wingtip Toys can help you find the perfect gift.</h2>
+        <p class="lead">We're all about transportation toys. You can order 
+                any of our toys today. Each toy listing has detailed 
+                information to help you choose the right toy.
+        </p>
+</div>

@@ -1,0 +1,373 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/obj/Debug/net7.0/scopedcss/projectbundle/WingtipToys.bundle.scp.css",
+      "PackagePath": "staticwebassets/WingtipToys.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/Images/.DS_Store",
+      "PackagePath": "staticwebassets/Images/.DS_Store"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/Images/Logo/logo.jpeg",
+      "PackagePath": "staticwebassets/Images/Logo/logo.jpeg"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/Images/Logo/paypal_checkout.gif",
+      "PackagePath": "staticwebassets/Images/Logo/paypal_checkout.gif"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/Images/Products/boatbig.png",
+      "PackagePath": "staticwebassets/Images/Products/boatbig.png"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/Images/Products/boatpaper.png",
+      "PackagePath": "staticwebassets/Images/Products/boatpaper.png"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/Images/Products/boatsail.png",
+      "PackagePath": "staticwebassets/Images/Products/boatsail.png"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/Images/Products/busdouble.png",
+      "PackagePath": "staticwebassets/Images/Products/busdouble.png"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/Images/Products/busgreen.png",
+      "PackagePath": "staticwebassets/Images/Products/busgreen.png"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/Images/Products/busred.png",
+      "PackagePath": "staticwebassets/Images/Products/busred.png"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/Images/Products/carconvert.png",
+      "PackagePath": "staticwebassets/Images/Products/carconvert.png"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/Images/Products/carearly.png",
+      "PackagePath": "staticwebassets/Images/Products/carearly.png"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/Images/Products/carfast.png",
+      "PackagePath": "staticwebassets/Images/Products/carfast.png"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/Images/Products/carfaster.png",
+      "PackagePath": "staticwebassets/Images/Products/carfaster.png"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/Images/Products/carracer.png",
+      "PackagePath": "staticwebassets/Images/Products/carracer.png"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/Images/Products/planeace.png",
+      "PackagePath": "staticwebassets/Images/Products/planeace.png"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/Images/Products/planeglider.png",
+      "PackagePath": "staticwebassets/Images/Products/planeglider.png"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/Images/Products/planepaper.png",
+      "PackagePath": "staticwebassets/Images/Products/planepaper.png"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/Images/Products/planeprop.png",
+      "PackagePath": "staticwebassets/Images/Products/planeprop.png"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/Images/Products/rocket.png",
+      "PackagePath": "staticwebassets/Images/Products/rocket.png"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/Images/Products/truckbig.png",
+      "PackagePath": "staticwebassets/Images/Products/truckbig.png"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/Images/Products/truckearly.png",
+      "PackagePath": "staticwebassets/Images/Products/truckearly.png"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/Images/Products/truckfire.png",
+      "PackagePath": "staticwebassets/Images/Products/truckfire.png"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/js/jquery.min.js",
+      "PackagePath": "staticwebassets/js/jquery.min.js"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/js/popper.min.js",
+      "PackagePath": "staticwebassets/js/popper.min.js"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.WingtipToys.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.WingtipToys.props",
+      "PackagePath": "build\\WingtipToys.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.WingtipToys.props",
+      "PackagePath": "buildMultiTargeting\\WingtipToys.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.WingtipToys.props",
+      "PackagePath": "buildTransitive\\WingtipToys.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

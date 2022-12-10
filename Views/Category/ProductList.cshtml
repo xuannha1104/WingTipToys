@@ -1,0 +1,46 @@
+
+@{
+    List<Product> productList = ViewBag.productList as List<Product>;
+}
+@if (productList == null)
+{
+    <h1>khong co data!</h1>
+}
+@if(productList != null)
+{
+    <div>
+        <h1> Products </h1>
+    </div>
+    <br />
+    <div class="product-grid-area">
+        <ul class="products-grid">
+
+        </ul>
+    </div>
+    <div class="row">
+        @foreach (var p in productList)
+        {
+            <div class="col-sm-3 py-3">
+                <div class="card w-75">
+                    <a class="card-img-top" asp-controller = "Product" asp-action = "Detail" asp-route-productid = "@p.ProductID">
+                        <img src="~/Images/Products/@p.ImagePath" width="228"/>
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">@p.ProductName</h5>
+                        <br/>
+                        <div class="clearfix mb-3"> 
+                            <span class="float-start badge rounded-pill bg-success">$@string.Format("{0:0.00}",@p.UnitPrice)&dollar;</span> 
+                            <span class="float-end">
+                                <a class="card-link" asp-controller = "Product" asp-action = "Detail" asp-route-productid = "@p.ProductID">Details</a>
+                            </span> 
+                        </div> 
+
+                        <div class="d-grid">
+                            <a asp-controller = "Cart" asp-action="AddToCart" asp-route-productid="@p.ProductID" class="btn btn-warning">Add To Cart</a>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
