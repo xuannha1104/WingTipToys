@@ -1,3 +1,4 @@
+#nullable disable
 namespace WingtipToys.Models
 {
     public class CartItem

@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace WingtipToys.Models
 {
-    public class ProductContext : DbContext
+    public class ProductContext : IdentityDbContext<AppUser>
     {
         public ProductContext(DbContextOptions<ProductContext> options) : base(options)
         {

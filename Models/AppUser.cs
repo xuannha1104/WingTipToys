@@ -4,11 +4,11 @@ using Microsoft.AspNetCore.Identity;
 
 namespace WingtipToys.Models
 {
-    public class AppUser: IdentityUser 
+    public class AppUser: IdentityUser
     {
           [Column(TypeName = "nvarchar")]
           [StringLength(400)]  
-          public string HomeAdress { get; set; }
+          public string? HomeAdress { get; set; }
 
           // [Required]       
           [DataType(DataType.Date)]

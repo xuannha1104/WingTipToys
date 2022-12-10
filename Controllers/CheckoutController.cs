@@ -3,6 +3,7 @@ using WingtipToys.Services;
 using PayPal.Core;
 using PayPal.v1.Payments;
 using BraintreeHttp;
+using Microsoft.AspNetCore.Authorization;
 
 namespace WingtipToys.Controllers
 {
@@ -23,10 +24,12 @@ namespace WingtipToys.Controllers
             _secretKey = config["PaypalSettings:SerectKey"];
         }
 
+        [Authorize]
         public async Task<IActionResult> NomalCheckout()
         {
             return View();
         }
+        [Authorize]
         public async Task<IActionResult> PaypalCheckout()
         {
             var environment = new SandboxEnvironment(_clientId, _secretKey);
