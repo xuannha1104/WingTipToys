@@ -25,18 +25,17 @@ services.Configure<RazorViewEngineOptions>(options => {
 
             });
 
+services.AddDbContext<ProductContext>(options => {
+        options.UseSqlServer(config.GetConnectionString("ProductContext"));
+    });
+
 // Đăng ký dịch vụ Session
 services.AddSession(cfg => {                    
 cfg.Cookie.Name = "wingtipstoy";                 // Đặt tên Session - tên này sử dụng ở Browser (Cookie)
     cfg.IdleTimeout = new TimeSpan(0,30, 0);    // Thời gian tồn tại của Session
 });
 
-services.AddDbContext<ProductContext>(options => 
-    {
-        options.UseSqlServer(config.GetConnectionString("ProductContext"));
-    });
-
-services.AddDefaultIdentity<AppUser>()
+services.AddIdentity<AppUser, IdentityRole>()
         .AddEntityFrameworkStores<ProductContext>()
         .AddDefaultTokenProviders();
 
@@ -44,6 +43,7 @@ services.AddOptions ();                                        // Kích hoạt O
 var mailsettings = config.GetSection ("MailSettings");          // đọc config
 services.Configure<MailSettings> (mailsettings);               // đăng ký để Inject
 services.AddTransient<IEmailSender, SendMailService>();        // Đăng ký dịch vụ Mail
+
 // Truy cập IdentityOptions
 services.Configure<IdentityOptions> (options => {
     // Thiết lập về Password
@@ -87,6 +87,10 @@ services.Configure<SecurityStampValidatorOptions>(options =>
 
 services.AddTransient<IHttpContextAccessor, HttpContextAccessor>();
 services.AddTransient<CartService>();
+
+services.AddAuthorization(options => {
+    options.AddPolicy("ShowAdminMenu",policy => policy.RequireRole("admin"));
+});
 
 var app = builder.Build();
 

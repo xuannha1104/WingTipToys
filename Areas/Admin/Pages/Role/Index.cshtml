@@ -1,0 +1,27 @@
+﻿@page "/admin/roles"
+@model WingtipToys.Admin.Role.IndexModel
+@{
+    ViewData["Title"] ="Roles List";
+}
+<partial name="_StatusMessage" model="@Model.StatusMessage"></partial>
+
+<div class="mb-2">
+    <a class="btn btn-secondary" asp-page="./Create">Create New Role</a>
+</div>
+
+<table class="table">
+    <tr>
+        <th>Role Name</th>
+        <th>Action</th>
+    </tr>
+    @foreach (var role in Model.roles)
+    {
+        <tr>
+            <td>@role.Name</td>
+            <td>
+                <a class="btn btn-success btn-sm" asp-page = "./Edit" asp-route-roleid="@role.Id">Update</a>
+                <a class="btn btn-danger btn-sm" asp-page = "./Delete" asp-route-roleid="@role.Id">Delete</a>
+            </td>
+        </tr>
+    }
+</table>

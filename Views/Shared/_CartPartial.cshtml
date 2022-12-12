@@ -1,0 +1,18 @@
+@using Microsoft.AspNetCore.Http
+@using WingtipToys.Services
+@using Newtonsoft.Json
+
+@inject CartService _cartService;
+
+
+@{
+    var cart = _cartService.GetCartItems();
+    
+    if (cart.Count > 0) {
+        <div class="nav-item">
+            <a class="text-warning" asp-route="cart">
+                <img src="~/Images/icons/shopping-cart.png"/>(@cart.Count)
+            </a>
+        </div>
+    }
+}

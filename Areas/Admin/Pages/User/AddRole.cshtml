@@ -1,0 +1,25 @@
+@page "/admin/add-role/{id}"
+@model WingtipToys.Admin.User.AddRoleModel
+@{
+    ViewData["Title"] ="assign user's role";
+}
+
+<div class="row">
+    <div class="col-md-6">
+        <form method="post">
+            @* <div asp-validation-summary="All" class="text-danger"></div> *@
+            <div class="form-group">
+                <label asp-for="RoleNames"></label>
+                @Html.ListBoxFor(m => m.RoleNames,Model.AllRoles,new{
+                    id = "id-select-roles",
+                    @class="form-control"
+                })
+                <span asp-validation-for="RoleNames" class="text-danger"></span>
+            </div>
+            <br/>
+            <button id="add-role" type="submit" class="btn btn-primary">Update</button>
+                
+            @* <a class="btn btn-primary" asp-page="./Index">Danh sách</a> *@
+        </form>
+    </div>
+</div>

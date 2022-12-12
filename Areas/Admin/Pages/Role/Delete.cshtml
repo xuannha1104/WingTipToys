@@ -1,0 +1,20 @@
+@page "/admin/delete-role/{roleid}"
+@model WingtipToys.Admin.Role.DeleteModel
+@{
+    ViewData["Title"] ="edit role";
+}
+
+<partial name="_StatusMessage" model="@Model.StatusMessage"></partial>
+
+<div class="row">
+    <div class="col-md-6">
+        <form method="post">
+            @* <div asp-validation-summary="All" class="text-danger"></div> *@
+            <p>Are you want to Delete <strong>@Model.role.Name</strong>?</p>
+            <br/>
+            <button id="add-role" type="submit" class="btn btn-danger">Yes</button>
+                
+            <a class="btn btn-primary" asp-page="./Index">No</a>
+        </form>
+    </div>
+</div>

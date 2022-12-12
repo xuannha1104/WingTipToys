@@ -1,0 +1,24 @@
+@page "/admin/add-role"
+@model WingtipToys.Admin.Role.CreateModel
+@{
+    ViewData["Title"] ="Add new role";
+}
+
+<partial name="_StatusMessage" model="@Model.StatusMessage"></partial>
+
+<div class="row">
+    <div class="col-md-6">
+        <form method="post">
+            @* <div asp-validation-summary="All" class="text-danger"></div> *@
+            <div class="form-group">
+                <label asp-for="Input.name"></label>
+                <input asp-for="Input.name" class="form-control">
+                <span asp-validation-for="Input.name" class="text-danger"></span>
+            </div>
+            <br/>
+            <button id="add-role" type="submit" class="btn btn-primary">Create</button>
+                
+            @* <a class="btn btn-primary" asp-page="./Index">Danh sách</a> *@
+        </form>
+    </div>
+</div>

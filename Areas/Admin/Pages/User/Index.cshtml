@@ -1,0 +1,39 @@
+﻿@page "/admin/users"
+@model WingtipToys.Admin.User.IndexModel
+@{
+    ViewData["Title"] ="User List";
+}
+<partial name="_StatusMessage" model="@Model.StatusMessage"></partial>
+
+@* <div class="mb-2">
+    <a class="btn btn-secondary" asp-page="./Create">Create New Role</a>
+</div> *@
+
+<table class="table">
+    <tr>
+        <th>User Name </th>
+        <th>User Role</th>
+        <th>Action</th>
+    </tr>
+    @foreach (var user in Model.users)
+    {
+        <tr>
+            <td>@user.UserName</td>
+            <td>@user.RoleNames</td>
+            <td>
+                <a class="btn btn-success btn-sm" asp-page = "./AddRole" asp-route-id="@user.Id">Add Role</a>
+                @* <a class="btn btn-danger btn-sm" asp-page = "./Delete" asp-route-roleid="@user.Id">Delete</a> *@
+            </td>
+        </tr>
+    }
+</table>
+@{
+    var pagingModel = new WingtipToys.Models.PagingModel()
+    {
+        currentpage = Model.currentPage,
+        countpages = Model.countPages,
+        generateUrl = (int? p) => Url.Page("./Index",new {currentPage = p})
+    };
+
+}
+<partial name="_Paging" model="@pagingModel" />
