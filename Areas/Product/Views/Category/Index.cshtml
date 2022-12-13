@@ -1,0 +1,36 @@
+@model List<WingtipToys.Models.Category>
+@{
+    ViewData["Title"] = "Category Index";
+    Layout =  "/Views/Shared/_Layout.cshtml";
+    string statusMessage =  @TempData["StatusMessage"] as string;
+}
+<partial name="_StatusMessage" model=@statusMessage></partial>
+<p>
+    <a asp-action="Create" class="btn btn-primary btn-sm">Create</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Category
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model) {
+            <tr>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.CategoryID">
+                        @item.CategoryName
+                    </a> 
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.CategoryID">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.CategoryID">Delete</a>
+                </td>
+            </tr>    
+        }
+    </tbody>
+</table>
