@@ -1,10 +1,12 @@
 using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using WingtipToys.Models;
 
 namespace WingtipToys.Admin.Role
 {
+    [Authorize(Roles="admin")] 
     public class DeleteModel : RolePageModel
     {
         public DeleteModel(RoleManager<IdentityRole> _roleManager, ProductContext _productContext) : base(_roleManager, _productContext)

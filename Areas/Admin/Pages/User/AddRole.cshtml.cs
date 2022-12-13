@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -8,6 +9,7 @@ using WingtipToys.Models;
 
 namespace WingtipToys.Admin.User
 {
+    [Authorize(Roles="admin")] 
     public class AddRoleModel: PageModel
     {
         private RoleManager<IdentityRole> _roleManager;

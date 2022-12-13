@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets/Images/.DS_Store"
     },
     {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/Images/Icons/.DS_Store",
+      "PackagePath": "staticwebassets/Images/Icons/.DS_Store"
+    },
+    {
+      "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/Images/Icons/shopping-cart.png",
+      "PackagePath": "staticwebassets/Images/Icons/shopping-cart.png"
+    },
+    {
       "Id": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/Images/Logo/logo.jpeg",
       "PackagePath": "staticwebassets/Images/Logo/logo.jpeg"
     },

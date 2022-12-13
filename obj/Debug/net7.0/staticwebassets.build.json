@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/buPx6RO4nfvvp3iIlWfbYQ4Js1ieXhLQtSd1hhFwmw=",
+  "Hash": "zZJePLMBFc3D1vD3GFjjrpU/eZPdKBthhjELLaYc2MU=",
   "Source": "WingtipToys",
   "BasePath": "_content/WingtipToys",
   "Mode": "Default",
@@ -1154,6 +1154,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/Images/.DS_Store"
+    },
+    {
+      "Identity": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/Images/Icons/.DS_Store",
+      "SourceId": "WingtipToys",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/",
+      "BasePath": "_content/WingtipToys",
+      "RelativePath": "Images/Icons/.DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Images/Icons/.DS_Store"
+    },
+    {
+      "Identity": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/Images/Icons/shopping-cart.png",
+      "SourceId": "WingtipToys",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/",
+      "BasePath": "_content/WingtipToys",
+      "RelativePath": "Images/Icons/shopping-cart.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Images/Icons/shopping-cart.png"
     },
     {
       "Identity": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/Images/Logo/logo.jpeg",

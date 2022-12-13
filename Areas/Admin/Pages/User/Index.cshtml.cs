@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace WingtipToys.Admin.User
 {
-    [Authorize]
+    [Authorize(Roles="admin")] 
     public class IndexModel : PageModel
     {
         const int USER_PER_PAGE = 10;
