@@ -1,0 +1,32 @@
+@model WingtipToys.Models.Product
+
+@{
+    ViewData["Title"] = "Product Detail";
+    Layout =  "/Views/Shared/_Layout.cshtml";
+}
+
+
+<div>
+    <h4>Product</h4>
+    <hr />
+    <dl class="row">
+        <div class="card mb-2" style="width: 32%">
+            <img src="~/Images/Products/@Model.ImagePath" style="border: solid" class="card-img-top" alt="@Model.ImagePath">
+            <div class="card-body">
+                <h5 class="card-title">@Model.ProductName</h5>
+                <p class="card-text">
+                    @Model.Description
+                </p>
+                <div class="clearfix mb-3"> 
+                    <span class="float-start badge rounded-pill bg-success">$@string.Format("{0:0.00}",@Model.UnitPrice)&dollar;</span> 
+                </div> 
+            </div>
+            
+        </div>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-productid="@Model.CategoryID">Edit</a> |
+    <a asp-action="Delete" asp-route-productid="@Model.CategoryID">Delete</a> |
+    <a asp-action="Index">Categories List</a>
+</div>

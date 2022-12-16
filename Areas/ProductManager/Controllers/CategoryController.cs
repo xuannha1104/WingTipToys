@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WingtipToys.Models;
 
-namespace WingtipToys.Areas.Product
+namespace WingtipToys.Areas.ProductManager
 {   
     [Area("Product")]
     [Authorize(Roles ="admin")]

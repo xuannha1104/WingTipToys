@@ -1,0 +1,49 @@
+@model IEnumerable<WingtipToys.Models.Product>
+@{
+    ViewData["Title"] = "Product Index";
+    Layout =  "/Views/Shared/_Layout.cshtml";
+    string statusMessage =  ViewData["StatusMessage"] as string;
+}
+<partial name="_StatusMessage" model=@statusMessage></partial>
+<p>
+    <a asp-action = "Create" class="btn btn-primary btn-sm">Create</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                ID
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                Category
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @item.ProductID 
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.ProductID">
+                        @item.ProductName 
+                    </a> 
+                </td>
+                <td>
+                    @item.Category.CategoryName 
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-productid="@item.ProductID">Details</a> |
+                    <a asp-action="Edit" asp-route-productid="@item.ProductID">Edit</a> |
+                    <a asp-action="Delete" asp-route-productid="@item.ProductID">Delete</a>
+                </td>
+            </tr>    
+        }
+    </tbody>
+</table>

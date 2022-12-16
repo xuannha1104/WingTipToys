@@ -9,12 +9,14 @@ namespace WingtipToys.Models
         [Key]
         public int ProductID { get; set; }
 
-        [Required, StringLength(100), Display(Name = "Name")]
+        [Required, Display(Name = "Name")]
+        [StringLength(100,MinimumLength = 3 ,ErrorMessage ="{0} length must from {2} to {2} characters")]
         public string ProductName { get; set; }
 
-        [Required, StringLength(10000), Display(Name = "Product Description"), DataType(DataType.MultilineText)]
+        [Required, Display(Name = "Product Description"), DataType(DataType.MultilineText)]
+        [StringLength(10000,MinimumLength = 6 ,ErrorMessage ="{0} length must from {2} to {2} characters")]
         public string Description { get; set; }
-
+        
         public string ImagePath { get; set; }
 
         [Display(Name = "Price")]

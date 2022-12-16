@@ -1,0 +1,24 @@
+@model WingtipToys.Models.Category
+@{
+    ViewData["Title"] ="Delete Category";
+    Layout =  "/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Are you sure delete this category?</h3>
+<div>
+
+    <dl class="row">
+        
+        <dt class = "col-sm-2">
+            Name: @Model.CategoryName
+        </dt>
+        <dt class = "col-sm-8">
+            Decription: @Model.Description
+        </dt>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Categories List</a>
+    </form>
+</div>

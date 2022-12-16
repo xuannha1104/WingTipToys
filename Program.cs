@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.Razor;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.FileProviders;
 using WingtipToys.Models;
 using WingtipToys.Services;
 
@@ -104,6 +105,13 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+// /contents/1.jpg => Uploads/1.jpg
+app.UseStaticFiles(new StaticFileOptions() {
+                FileProvider = new PhysicalFileProvider(
+                    Path.Combine(Directory.GetCurrentDirectory(), "Uploads")
+                ),
+                RequestPath = "/contents"
+            });
 app.MapRazorPages();
 
 app.UseSession();
