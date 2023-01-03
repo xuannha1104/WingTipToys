@@ -1,5 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.AspNetCore.Mvc;
 
 namespace WingtipToys.Models
 {
@@ -11,6 +12,7 @@ namespace WingtipToys.Models
 
         [Required, Display(Name = "Name")]
         [StringLength(100,MinimumLength = 3 ,ErrorMessage ="{0} length must from {2} to {2} characters")]
+        [Remote( action: "IsAlreadyExist",controller:"ProductManager",areaName:"ProducManager",HttpMethod ="POST",ErrorMessage ="Product name is already existed!")]
         public string ProductName { get; set; }
 
         [Required, Display(Name = "Product Description"), DataType(DataType.MultilineText)]

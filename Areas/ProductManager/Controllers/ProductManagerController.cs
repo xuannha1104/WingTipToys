@@ -270,6 +270,24 @@ namespace WingtipToys.Areas.ProductManager
         }
 
 
+        [HttpPost]
+        public JsonResult IsAlreadyExist(string ProductName)
+        {
+            // return Json(IsProductAvailable(ProductName));
+            return Json(false);
+        }
+        private bool IsProductAvailable(string name)
+        {
+            var product = _context.Products.Where(p => p.ProductName == name).FirstOrDefault();
+            if (product!=null) 
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
     }
 
 }

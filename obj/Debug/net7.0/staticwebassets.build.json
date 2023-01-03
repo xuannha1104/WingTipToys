@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "T1VhMy890hroTDootJcHMG8D+LASlXkEX5aQyq1U+2Y=",
+  "Hash": "IuWZf0+Asqk3KfAtGw/xUvqgdDxDOqwlAakieU1iaXI=",
   "Source": "WingtipToys",
   "BasePath": "_content/WingtipToys",
   "Mode": "Default",
@@ -1547,12 +1547,12 @@
       "OriginalItemSpec": "wwwroot/Images/Products/truckfire.png"
     },
     {
-      "Identity": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/Images/Products/VinFast Car22222.png",
+      "Identity": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/Images/Products/VinFast Car.png",
       "SourceId": "WingtipToys",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/",
       "BasePath": "_content/WingtipToys",
-      "RelativePath": "Images/Products/VinFast Car22222.png",
+      "RelativePath": "Images/Products/VinFast Car.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1561,7 +1561,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/Images/Products/VinFast Car22222.png"
+      "OriginalItemSpec": "wwwroot/Images/Products/VinFast Car.png"
     },
     {
       "Identity": "/Users/axn1104/Desktop/asp/WingtipToys/wwwroot/js/bootstrap.min.js",
